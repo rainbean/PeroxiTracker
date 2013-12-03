@@ -1,0 +1,6 @@
+/home/cloudera/TestImages/A - 1(fld 1 wv DAPI - DAPI).tif
+/home/cloudera/TestImages/A - 1(fld 1 wv FITC - FITC).tif
+/home/cloudera/TestImages/A - 2(fld 1 wv DAPI - DAPI).tif
+/home/cloudera/TestImages/A - 2(fld 1 wv FITC - FITC).tif
+/home/cloudera/TestImages/A - 3(fld 1 wv DAPI - DAPI).tif
+/home/cloudera/TestImages/A - 3(fld 1 wv FITC - FITC).tif

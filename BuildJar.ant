@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project Peroxitracker with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="/home/cloudera/Peroxitracker.jar">
+            <manifest>
+                <attribute name="Main-Class" value="peroHadoop.PeroDriver"/>
+                <attribute name="Class-Path" value=". Peroxitracker_lib/ij.jar"/>
+            </manifest>
+            <fileset dir="/home/cloudera/workspace.hadoop/Peroxitracker/bin"/>
+            <fileset dir="/home/cloudera/workspace.hadoop/Peroxitracker/conf"/>
+        </jar>
+        <delete dir="/home/cloudera/Peroxitracker_lib"/>
+        <mkdir dir="/home/cloudera/Peroxitracker_lib"/>
+        <copy file="/home/cloudera/workspace/Peroxitracker/lib/ij.jar" todir="/home/cloudera/Peroxitracker_lib"/>
+    </target>
+</project>
