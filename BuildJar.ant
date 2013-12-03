@@ -13,6 +13,6 @@
         </jar>
         <delete dir="/home/cloudera/Peroxitracker_lib"/>
         <mkdir dir="/home/cloudera/Peroxitracker_lib"/>
-        <copy file="/home/cloudera/workspace/Peroxitracker/lib/ij.jar" todir="/home/cloudera/Peroxitracker_lib"/>
+        <copy file="/home/cloudera/workspace/PeroxiTracker/lib/ij.jar" todir="/home/cloudera/Peroxitracker_lib"/>
     </target>
 </project>

@@ -62,6 +62,6 @@
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/xmlenc.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/xz.jar"/>
 	<classpathentry kind="lib" path="/usr/lib/hadoop/client/zookeeper.jar"/>
-	<classpathentry kind="lib" path="/home/cloudera/workspace/Peroxitracker/lib/ij.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/workspace/PeroxiTracker/lib/ij.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
