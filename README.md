@@ -56,3 +56,12 @@ ToDo: Break X11 requirements by rewriting code
 	at peroJava.Well.contrastEnhance(Well.java:24)
 ```	
 
+```
+Cell counting starts...
+warning: your version of GraphicsMagick limits images to 8 bits per pixel
+error: regionprops: first input argument must be a NxM matrix
+error: called from:
+error:   /usr/share/octave/packages/image-1.0.14/regionprops.m at line 100, column 5
+error:   /home/cloudera/AzureBlob/MATLAB/cell_object_identification.m at line 68, column 4
+error:   /home/cloudera/AzureBlob/MATLAB/Peroxitracker.m at line 37, column 30
+```
